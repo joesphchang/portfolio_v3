@@ -1,0 +1,43 @@
+.navigation-container {
+    position: fixed;
+    height: 90px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: .3s ease-in;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, .9);
+}
+
+.navigation-container .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1240px;
+    margin: auto;
+    height: 100%;
+    padding: 0 1rem;
+}
+
+.navigation-container .nav-menu a {
+    color: whitesmoke;
+}
+
+.navigation-container .nav-menu {
+    display: flex;
+}
+
+.navigation-container .nav-item {
+    padding: 1rem;
+    font-weight: 500;
+}
+
+.hamburger {
+    display: none;
+}
+
+.navigation-logo {
+    color: white;
+    font-size: 28px;
+}
